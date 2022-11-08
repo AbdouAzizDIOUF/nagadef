@@ -2,8 +2,10 @@
     "name": "diouf/drupal",
     "autoload": {
         "psr-4": {
-            "Diouf\\Drupal\\": "src/"
-        }
+            "Diouf\\Drupal\\": "src/",
+            "config\\": "src/"
+        },
+        "files": ["Config.php"]
     },
     "authors": [
         {

@@ -11,6 +11,7 @@ return array(
     'phpDocumentor\\GraphViz\\PHPStan\\' => array($vendorDir . '/phpdocumentor/graphviz/src/phpDocumentor/PHPStan'),
     'phpDocumentor\\GraphViz\\' => array($vendorDir . '/phpdocumentor/graphviz/src/phpDocumentor/GraphViz'),
     'phpDocumentor\\' => array($vendorDir . '/phpdocumentor/phpdocumentor/src/phpDocumentor', $vendorDir . '/phpdocumentor/reflection/src/phpDocumentor'),
+    'config\\' => array($baseDir . '/src'),
     'Webmozart\\Assert\\' => array($vendorDir . '/webmozart/assert/src'),
     'Twig\\' => array($vendorDir . '/twig/twig/src'),
     'Symfony\\Polyfill\\Php81\\' => array($vendorDir . '/symfony/polyfill-php81'),

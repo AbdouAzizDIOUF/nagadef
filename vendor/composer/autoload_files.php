@@ -22,4 +22,5 @@ return array(
     '2324d0e5cadd603331d27de142371f0b' => $vendorDir . '/symfony/contracts/Deprecation/function.php',
     'f598d06aa772fa33d905e87be6398fb1' => $vendorDir . '/symfony/polyfill-intl-idn/bootstrap.php',
     '37a3dc5111fe8f707ab4c132ef1dbc62' => $vendorDir . '/guzzlehttp/guzzle/src/functions_include.php',
+    '85188299d9f22bfa89ede45645dbdeeb' => $baseDir . '/Config.php',
 );

@@ -23,6 +23,7 @@ class ComposerStaticInit922d664ece1500152d1b276db34456a9
         '2324d0e5cadd603331d27de142371f0b' => __DIR__ . '/..' . '/symfony/contracts/Deprecation/function.php',
         'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
+        '85188299d9f22bfa89ede45645dbdeeb' => __DIR__ . '/../..' . '/Config.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -33,6 +34,10 @@ class ComposerStaticInit922d664ece1500152d1b276db34456a9
             'phpDocumentor\\GraphViz\\PHPStan\\' => 31,
             'phpDocumentor\\GraphViz\\' => 23,
             'phpDocumentor\\' => 14,
+        ),
+        'c' => 
+        array (
+            'config\\' => 7,
         ),
         'W' => 
         array (
@@ -180,6 +185,10 @@ class ComposerStaticInit922d664ece1500152d1b276db34456a9
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/phpdocumentor/src/phpDocumentor',
             1 => __DIR__ . '/..' . '/phpdocumentor/reflection/src/phpDocumentor',
+        ),
+        'config\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'Webmozart\\Assert\\' => 
         array (
