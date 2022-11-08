@@ -1,0 +1,35 @@
+{
+    "name": "diouf/drupal",
+    "autoload": {
+        "psr-4": {
+            "Diouf\\Drupal\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Diouf Ziza",
+            "email": "abdouazizdiouf75@gmail.com"
+        }
+    ],
+    "require": {
+        "alexacrm/php-crm-toolkit": "dev-master",
+        "symfony/var-dumper": "^5.4",
+        "vgrem/php-spo": "^2.5",
+        "thybag/php-sharepoint-lists-api": "^0.7.2",
+        "guzzlehttp/guzzle": "^7.5",
+        "symfony/http-client": "^5.4",
+        "phpdocumentor/phpdocumentor": "3.1.0",
+        "influxdata/influxdb-client-php": "^3.1",
+        "nyholm/psr7": "^1.5",
+        "php-http/curl-client": "^2.2"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/flex": true
+        }
+    }
+}
