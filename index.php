@@ -34,7 +34,7 @@ $writeApi->write($point, WritePrecision::S, Config::BUCKET, Config::ORG);
 
 $dataArray = ['name' => 'cpu',
     'tags' => ['host' => 'server_nl', 'region' => 'us'],
-    'fields' => ['internal' => 5, 'external' => 6],
+    'fields' => ['internal' => 5, 'external' => 6, 'temperature' => 10, 'ahmed' => 20, 'Dareine' => 20],
     'time' => microtime(true)];
 
 $writeApi->write($dataArray, WritePrecision::S, Config::BUCKET, Config::ORG);
